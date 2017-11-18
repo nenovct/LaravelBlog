@@ -6,7 +6,7 @@
 
 <div class="row">
     <div class="col-md-8">
-    <img src="{{asset('images/'.$post->image)}}" width="100%" height="400" />
+    <img src="{{ $post->image?asset('images/'. $post->image):"" }}" width="100%" height="400" alt="" />
         <h2>{{ $post->title }}</h2>        
         <p class="lead">{!! $post->body !!}</p>
         <hr>
