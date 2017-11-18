@@ -1,0 +1,71 @@
+.btn-h1-spacing{
+    margin-top: 22px;
+}
+
+.form-spacing-top{
+    margin-top: 30px;
+}
+
+.comment{
+    margin-top: 15px;
+    margin-bottom: 45px;
+} 
+
+.div-img {
+    /*border: 1px solid #c7c7c7;*/
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px; /* the width of image */
+    height: 50px; /* the height of image */
+    padding: 0px; /* repor para 0 o valor de col-md-x */
+    position: relative;
+    float: left;
+    min-height: 1px;
+}
+
+.author-image {
+    border-radius: 50%;    
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+    display:block;
+    float: left;
+}
+
+.author-name{
+    float: left;
+    margin-left: 15px;
+}
+
+.author-name>h4{
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.author-time{
+    font-size: 11px;
+    font-style: italic;
+    color: #aaa;
+}
+
+.comment-content{
+    clear: both;
+    margin-left: 65px;
+    font-size: 16px;
+    line-height: 1.3em;
+}
+
+.comments-title{
+    margin-bottom: 45px;
+}
+
+.comments-title>span{
+    margin-right: 15px;
+}
+
+.comments-form-title{
+    margin-bottom: 25px;    
+}
+
+.comments-form-title>span{
+    margin-right: 15px;
+}
